@@ -1,4 +1,6 @@
 #!/bin/bash
 
-echo "this script name is $0" ##  $0 represensts script itself by presesnting the name 
-echo "HEllo there $1 $2  $@" ##
+echo "This script name is $0" ##  $0 represensts script itself by presesnting the name 
+echo "Hello there $1 $2  $@" ##
+echo "This is the list of all aarguments given by the user: $@"
+ECho "This script is running with this PID: $$"
