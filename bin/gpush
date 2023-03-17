@@ -4,7 +4,7 @@ if [ -d .git ]; then
 git config user.name uuviee #config GIT
 git config user.email uuvieealtan@gmail.com 
 git pull #get the latest
-git add -A .  #adding files we want to push
+git add .  #adding files we want to push
 git commit -m $1 ##add a comment and use #1 as a message by user input
 git push -u origin main #pushing onto github
 echo "Pushed to GitHub!"
@@ -17,8 +17,12 @@ else
     git config user.name uuviee
     git config user.email uuvieealtan@gmail.com
     git pull #get the latest
-    git add -A .  #adding files we want to push
+    git add .   #adding files we want to push
     git commit -m $1 ##add a comment and use #1 as a message by user input
     git push -u origin main #pushing onto github
     echo "Now pushed to GitHub"
      fi
+
+
+
+
