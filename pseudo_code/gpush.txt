@@ -1,0 +1,11 @@
+# Descriptions
+Every project we work on will be stored in our GitHUb accoutn. 
+Everytime, we want to pubish our source code, we have a repeated block of code we want to speed up. 
+SO this scrippt will helpl us do exactly that.
+
+Step1 :
+Check if current directory is a repository or not.
+if [current DIR is a repossitory ];
+publish your code to github
+else 
+    give error message about the condition

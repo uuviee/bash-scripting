@@ -1,0 +1,12 @@
+# Description:
+I want a small program to locate my repository I want to work on there and take me there.
+It should prevent me from silly errors. 
+
+Step 1:
+First we locate our repossitory usign the built in linux command "find".
+Step 2:
+Take input as an argument
+Step 3: 
+We will save the output ofthe "find" command and "change directory" to the repository.
+Step 4:
+Before the bash process is eliminated, we take over. 
