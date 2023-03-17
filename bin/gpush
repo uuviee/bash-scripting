@@ -1,4 +1,6 @@
 #!/bin/bash
+git config user.name uuviee
+git config user.email uuvieealtan@gmail.com
 
  
 git pull #get the latest
