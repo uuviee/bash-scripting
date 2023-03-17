@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ 
+git pull #get the latest
+git add $(pwd)  #adding files we want to push
+git commit -m $1 ##add a comment and use #1 as a message by user input
+git push -u origin main #pushing onto github
+##testing
+echo "All done"
