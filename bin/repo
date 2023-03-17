@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -z $1 ]; then
+if [ -z $1]; then
 echo "Error: enter a repo name" 
 fi 
 dir=$(find / -type d -name $1)
