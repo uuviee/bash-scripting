@@ -1,0 +1,13 @@
+#!/bin/bash
+
+##this script will take in question prompt and give an answer
+
+echo "Hello! This is the Jokester. Lets determine if you are funny or not."
+read -p "Tell me your funniest joke? " joke_funny
+ranNum=2 
+#$[RANDOM%10+1]
+if [ ranNum \> 5 ] ; then
+cowsay -d "Boo your joke was not funny"
+else 
+cowsay -g "I guess you are somewhat funny" 
+fi
